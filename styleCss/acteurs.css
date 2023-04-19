@@ -1,0 +1,124 @@
+main {
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    background-color: rgb(35, 35, 35);
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lienNav {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.logoreseau {
+    margin-right: 30px;
+}
+
+.banniereimage {
+    height: 305px;
+    object-fit: cover;
+    margin-bottom: -6px;
+}
+
+.prochainUn,
+.prochainDeux,
+.prochaintrois,
+.prochainQuatre,
+.prochainCinq {
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+
+.prochaineSortieFilm,
+.acteurs {
+    background-color: rgb(73, 73, 73);
+    width: 15%;
+    color: white;
+
+}
+
+.acteursFilsProchaineSorti {
+    display: flex;
+}
+
+.acteursbloc {
+    width: 70%;
+}
+
+.acteursbloc {
+    display: flex;
+    background-color: rgb(30, 27, 27);
+    width: 70%;
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+
+.IMGrOBERTO {
+    width: 350px;
+    float: left;
+    padding: 15px;
+}
+
+.descriptionacteur {
+    padding: 15px;
+}
+
+
+
+.prochaineSortieFilm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts {
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footerGauche {
+    display: flex;
+    background-color: rgb(35, 35, 35);
+    gap: 15px;
+    align-items: center;
+}
+
+.footerDroit {
+    color: white;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(35, 35, 35);
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contactGauche {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}

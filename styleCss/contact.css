@@ -1,0 +1,234 @@
+main {
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    background-color: rgb(35, 35, 35);
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.lienNav {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.bloc1 {
+    background-color: rgb(30, 27, 27);
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    color: white;
+    padding-top: 50px;
+}
+
+.bloc2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bloc3 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bloc4 {
+    border-radius: 4px;
+    width: 40%;
+}
+
+.bloc5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bloc6 {
+    color: rgb(225, 225, 225);
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: space-around;
+}
+
+.bloc7 {
+    width: 40%;
+    line-height: 30px;
+}
+
+.bloc8 {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+.centre {
+    display: flex;
+}
+
+.prochaineSortieFilm,
+.acteurs {
+    background-color: rgb(73, 73, 73);
+    width: 15%;
+    color: white;
+
+}
+
+.blocform {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.form5 textarea {
+    background: transparent;
+    border: 1px solid grey;
+    resize: none;
+    width: 100%;
+}
+
+.form6 {
+    display: flex;
+}
+
+
+.email {
+    display: flex;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+img {
+    object-fit: contain;
+}
+
+h5 {
+    font-size: 12px;
+}
+
+.adress {
+    display: flex;
+    width: 100%;
+}
+
+img {
+    object-fit: contain;
+}
+
+fieldset {
+    margin: 0;
+    border: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 20px;
+}
+
+input {
+    background: transparent;
+    width: 40%;
+    border: none;
+    border-bottom: 1px solid rgb(66, 66, 66);
+    margin-bottom: 40px;
+    color: white;
+    padding: 10px;
+    font-size: large;
+}
+
+textarea {
+    color: white;
+    padding: 10px;
+    font-size: large;
+}
+
+.bouton {
+    background-color: brown;
+    border-radius: 5px;
+    font-size: large;
+}
+
+textarea {
+    background: transparent;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid rgb(66, 66, 66);
+}
+
+
+.text-email {
+    width: 100%;
+}
+
+.contacts {
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footerGauche {
+    display: flex;
+    background-color: rgb(35, 35, 35);
+    gap: 15px;
+    align-items: center;
+}
+
+.footerDroit {
+    color: white;
+}
+
+.logoreseau {
+    margin-right: 30px;
+}
+
+.prochainUn,
+.prochainDeux {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 70px;
+}
+
+.banniereimage {
+    height: 305px;
+    object-fit: cover;
+    margin-bottom: -6px;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(35, 35, 35);
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contactGauche {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}

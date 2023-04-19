@@ -1,0 +1,192 @@
+main {
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    background-color: rgb(35, 35, 35);
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lienNav {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.banniereimage {
+    height: 305px;
+    object-fit: cover;
+    margin-bottom: -6px;
+}
+
+.logoreseau {
+    margin-right: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.prochaineSortieFilm,
+.acteurs {
+    background-color: rgb(73, 73, 73);
+    width: 15%;
+    color: white;
+}
+
+.acteursFilsProchaineSorti,
+.ligneFilmajout,
+.ligneFilmPopu {
+    display: flex;
+}
+
+.ligneFilmajout,
+.ligneFilmPopu {
+    justify-content: space-around;
+}
+
+.ligneDernierajout,
+.filmPopulaire {
+    margin-bottom: 80px;
+}
+
+
+
+.films {
+    background-color: rgb(30, 27, 27);
+    width: 70%;
+    color: white;
+}
+
+.dernierPublication {
+    width: 17.5%;
+}
+
+img {
+    width: 100%;
+}
+
+.titreligne {
+    margin-left: 40px;
+}
+
+.prochainUn,
+.prochainDeux,
+.prochaintrois,
+.prochainQuatre,
+.prochainCinq {
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.prochaineSortieFilm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts {
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footerGauche {
+    display: flex;
+    background-color: rgb(35, 35, 35);
+    gap: 15px;
+    align-items: center;
+}
+
+.footerDroit {
+    color: white;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(35, 35, 35);
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contactGauche {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+@media (max-width: 1124px) {
+    main {
+        font-size: medium;
+        width: 100%;
+    }
+
+    h2 {
+        font-size: large;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .acteursFilsProchaineSorti {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .acteurs {
+        display: none;
+    }
+
+    .films {
+        width: 100%;
+    }
+
+    .prochaineSortieFilm {
+        width: 100%;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerGauche,
+    .footerDroit {
+        display: flex;
+    }
+}
+
+@media (max-width: 485px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .ligneFilmajout,
+    .ligneFilmPopu,
+    .prochaineSortieFilm {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dernierPublication {
+        width: 100%;
+    }
+}
